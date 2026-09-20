@@ -1,0 +1,41 @@
+EDA BÁSICO - DATASET DE COMPRAS
+==================================
+Observaciones: 182,721
+Columnas originales: 11
+Nulos originales en Product_Subcategory_2: 105,260 (57.61%)
+
+Purchase
+  - mínimo: 45.00
+  - máximo: 29,980.00
+  - promedio: 7,851.67
+  - mediana: 5,060.00
+
+Distribución de Age
+  - 46-50: 38,173
+  - 36-45: 34,648
+  - 26-35: 33,763
+  - 51-55: 33,012
+  - 55+: 26,139
+  - 18-25: 8,798
+  - 0-17: 8,188
+
+Distribución de Stay_In_Current_City_Years
+  - 1: 41,481
+  - 4: 38,820
+  - 2: 38,445
+  - 5+: 38,355
+  - 3: 25,620
+
+Distribución de City_Category
+  - A: 76,169
+  - B: 60,097
+  - C: 46,455
+
+Compra promedio por Gender
+  - F: 7,536.50 (84,074 observaciones)
+  - M: 8,120.28 (98,647 observaciones)
+
+Transformaciones aplicadas
+  - Age_Encoded: codificación ordinal de 0-17=0 hasta 55+=6.
+  - Stay_In_Current_City_Years_Encoded: años como entero; 5+=5.
+  - Product_Subcategory_2: nulos reemplazados por 0 (sin subcategoría).

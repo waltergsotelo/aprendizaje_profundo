@@ -1,0 +1,6 @@
+# Entornos locales de Python: se recrean desde las dependencias, no se versionan.
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
